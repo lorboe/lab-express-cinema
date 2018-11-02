@@ -1,0 +1,8 @@
+
+<ul>
+  {{#each listOfMovies}}
+ <img src="{{this.image}}"> 
+<li> {{this.title}} </li>
+<a href="/movies/{{this._id}}">See More</a>
+{{/each}}
+</ul>
